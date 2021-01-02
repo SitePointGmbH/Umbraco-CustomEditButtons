@@ -1,0 +1,156 @@
+﻿/* Änderungen im CSS Backend */
+.customButtonText {
+    font-size:13px;
+}
+
+.customButtons i {
+    font-size:19px;
+    vertical-align:middle;
+}
+
+#btnVorschau {
+
+}
+
+#btnSave, #btnSaveNL {
+    background-color:#dd793f;
+    color:#ffffff;
+}
+
+#btnSave2 {
+    background-color:#7CBCEE;
+    width:259px;
+    color:#ffffff;
+}
+
+#btnSchedule
+{
+    background-color:#7CBCEE;    
+    color:#ffffff;
+}
+
+#btnSaveAndPublish {
+     background-color:#53A93F;
+     color:#ffffff;
+}
+
+#btnUnpublish {
+     background-color:#948c8c;
+     color:#ffffff;
+}
+
+.loadingButton .spinner
+{
+   display:block;
+}
+
+.loadingButton .customButtonIcon
+{
+    display:none;
+}
+
+.devider
+{
+    display:inline-block;
+    background-color:#666;
+    width:2px;
+    height:24px;
+    margin:0px 15px;
+    vertical-align:middle;
+}
+
+.schedule
+{
+    display:inline-block;
+    position:relative;
+    cursor:pointer;
+}
+
+.scheduleClose
+{
+    cursor:pointer;
+}
+
+.scheduleClose:hover
+{
+    text-decoration:none;
+}
+
+#schedulerDates .umb-control-group
+{
+    height:85px;
+}
+
+.scheduleElements {
+    position:absolute;
+         /*top:-341px;*/
+         bottom:52px;
+    right:-15px;
+    padding:10px; 
+    min-width:250px;
+    /*height:310px;*/
+    background-color:#f8f8f8;
+    border-top:solid 1px #d9d9d9;
+    border-left:solid 1px #d9d9d9;
+    border-right:solid 1px #d9d9d9;
+    display:none;
+}
+
+
+.scheduleElementsNL {
+        /* top:-211px;*/
+         bottom:52px;
+    right:-0px;
+    /*height:180px;*/
+    display:none;
+}
+
+.spinner {
+  width: 21px;
+  height: 21px;
+  display:none;
+  position: relative;
+  float:right;
+  margin-left:8px;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+    .customButtonText {
+        display: none;
+    }
+}

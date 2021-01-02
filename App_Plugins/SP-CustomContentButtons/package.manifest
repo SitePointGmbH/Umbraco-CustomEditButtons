@@ -1,0 +1,10 @@
+﻿{
+javascript: [
+       '~/App_Plugins/SP-CustomContentButtons/SP.CustomButtonsController.js',
+       '~/App_Plugins/SP-CustomContentButtons/httpProviderIntercept.js',
+       '~/App_Plugins/SP-CustomContentButtons/customEditorSection.controller.js'
+   ],
+   css: [
+       '~/App_Plugins/SP-CustomContentButtons/customButtons.css'
+   ]
+}
